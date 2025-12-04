@@ -1,0 +1,40 @@
+nav ul {
+    display: flex;
+    /* 1. Habilita Flexbox en el contenedor <ul> */
+    justify-content: space-between;
+    align-self: flex-start;
+    height: 100px;
+    color: blanchedalmond;
+    background-color: black;
+    /* Ejemplo: list-style: none -----> 2. Opcional: Quita las viñetas de la lista */
+    /* padding: 0; ----> 3. Opcional: Elimina el relleno por defecto de la lista */
+}
+
+.nav-item {
+    color: whitesmoke;
+    font-size: 35px;
+    font-style: italic;
+    justify-content: space-between;
+    align-self: center;
+    padding: 5px 30px;
+}
+
+.imgtienda {
+    width: 200px;
+    height: 200px;
+    padding: 2px 10px;
+    border: 1px solid black;
+}
+
+.Merchandising {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+article button {
+    width: 30px;
+    height: 25px;
+    align-content: center;
+    color: blue;
+}
